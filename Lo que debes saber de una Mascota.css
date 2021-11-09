@@ -282,15 +282,18 @@ background:#540ec5c0 ;
 
 
 
+body {
+  margin: 0;
+  background: rgb(85, 212, 221);
+}
 
-
-
-
-
-
-
-
-
+.titulo {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(15, 121, 148);
+  margin-top: 20vh;
+  animation: flotar 2s linear infinite alternate;
+}
 
 @keyframes flotar {
   to {
@@ -374,6 +377,17 @@ background:#540ec5c0 ;
     background: rgb(27, 143, 197);
   }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
